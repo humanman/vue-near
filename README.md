@@ -43,7 +43,7 @@ app.use(VueNear, {
   // Needs the environment for the correct RPC to use
   env: process.env.NODE_ENV || 'development',
   config: {
-    appTite: 'Cool dApp',
+    appTitle: 'Cool dApp',
     contractName: 'cool_dapp.testnet',
   },
 })
